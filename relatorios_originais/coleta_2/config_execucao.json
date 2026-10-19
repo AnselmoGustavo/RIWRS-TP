@@ -1,0 +1,189 @@
+{
+  "minutes": null,
+  "target": 100000,
+  "config": {
+    "mode": "hybrid",
+    "delay_seconds": 0.5,
+    "concurrency": 72,
+    "concurrency_per_domain": 4,
+    "timeout_seconds": 30,
+    "browser_timeout_seconds": 30,
+    "browser_wait_ms": 500,
+    "max_sitemap_urls_per_site": 100000,
+    "max_sitemap_files_per_site": 300,
+    "headless": true,
+    "autothrottle_target_concurrency": 2,
+    "browser_workers": 4,
+    "browser_queue_limit": 8,
+    "browser_queue_timeout_seconds": 2,
+    "checkpoint_seconds": 30,
+    "autothrottle_start_delay": 1,
+    "browser_min_delay_seconds": 2
+  },
+  "sites": [
+    {
+      "name": "comidaereceitas",
+      "seed": "https://www.comidaereceitas.com.br/",
+      "hosts": [
+        "comidaereceitas.com.br",
+        "www.comidaereceitas.com.br"
+      ],
+      "prefixes": [
+        "/"
+      ],
+      "article_patterns": [
+        "^/[^/]+/[^/]+\\.html$"
+      ],
+      "exclude_patterns": [
+        "/(?:privacidade|privacy|termos-de-uso|termos|contato|contactos|sobre-nos|politica-de-privacidade|login|cadastro)(?:/|$)",
+        "/(?:wp-admin|wp-json|wp-content|wp-includes|feed|comments|comentarios|search|busca|pesquisa|login|register|registro|perfil|membros)(?:/|$)",
+        "/(?:amp|print|imprimir)/?$",
+        "\\.(?:php|xml|txt)$",
+        "^/(?:noticias|dicas|curiosidades|artigos)(?:/|$)"
+      ],
+      "listing_patterns": [
+        "^/$",
+        "/(?:category|categoria|categorias|tag|author|autor|page|pagina)(?:/|$)",
+        "^/(?:receitas|receita|videos)/?$"
+      ]
+    },
+    {
+      "name": "teleculinaria",
+      "seed": "https://teleculinaria.pt/todas-as-receitas/",
+      "hosts": [
+        "teleculinaria.pt",
+        "www.teleculinaria.pt"
+      ],
+      "prefixes": [
+        "/receitas/",
+        "/todas-as-receitas/",
+        "/categoria/",
+        "/categorias/",
+        "/grau_de_dificuldade/"
+      ],
+      "article_patterns": [
+        "^/receitas/(?:[^/]+/)*[^/]+/?$"
+      ],
+      "exclude_patterns": [
+        "/(?:privacidade|privacy|termos-de-uso|termos|contato|contactos|sobre-nos|politica-de-privacidade|login|cadastro)(?:/|$)",
+        "/(?:wp-admin|wp-json|wp-content|wp-includes|feed|comments|comentarios|search|busca|pesquisa|login|register|registro|perfil|membros)(?:/|$)",
+        "/(?:amp|print|imprimir)/?$",
+        "\\.(?:php|xml|txt)$"
+      ],
+      "listing_patterns": [
+        "^/$",
+        "/(?:category|categoria|categorias|tag|author|autor|page|pagina)(?:/|$)",
+        "^/(?:receitas|receita|videos)/?$",
+        "^/(?:todas-as-receitas|grau_de_dificuldade)(?:/|$)"
+      ]
+    },
+    {
+      "name": "petitchef",
+      "seed": "https://pt.petitchef.com/receitas",
+      "hosts": [
+        "pt.petitchef.com"
+      ],
+      "prefixes": [
+        "/receitas"
+      ],
+      "article_patterns": [
+        "^/receitas/(?:[^/]+/)*[^/]+-fid-\\d+/?$"
+      ],
+      "exclude_patterns": [
+        "/(?:privacidade|privacy|termos-de-uso|termos|contato|contactos|sobre-nos|politica-de-privacidade|login|cadastro)(?:/|$)",
+        "/(?:wp-admin|wp-json|wp-content|wp-includes|feed|comments|comentarios|search|busca|pesquisa|login|register|registro|perfil|membros)(?:/|$)",
+        "/(?:amp|print|imprimir)/?$",
+        "\\.(?:php|xml|txt)$"
+      ],
+      "listing_patterns": [
+        "^/$",
+        "/(?:category|categoria|categorias|tag|author|autor|page|pagina)(?:/|$)",
+        "^/(?:receitas|receita|videos)/?$",
+        "^/receitas-tree/?$",
+        "^/receitas/(?:cat|pesquisa)(?:/|$)"
+      ]
+    },
+    {
+      "name": "anamariabrogui",
+      "seed": "https://anamariabrogui.com.br/",
+      "hosts": [
+        "anamariabrogui.com.br",
+        "www.anamariabrogui.com.br"
+      ],
+      "prefixes": [
+        "/"
+      ],
+      "article_patterns": [
+        "^/receita/[^/]+/?$"
+      ],
+      "exclude_patterns": [
+        "/(?:privacidade|privacy|termos-de-uso|termos|contato|contactos|sobre-nos|politica-de-privacidade|login|cadastro)(?:/|$)",
+        "/(?:wp-admin|wp-json|wp-content|wp-includes|feed|comments|comentarios|search|busca|pesquisa|login|register|registro|perfil|membros)(?:/|$)",
+        "/(?:amp|print|imprimir)/?$",
+        "\\.(?:php|xml|txt)$",
+        "^/(?:noticias|blog|loja|videos)(?:/|$)"
+      ],
+      "listing_patterns": [
+        "^/$",
+        "/(?:category|categoria|categorias|tag|author|autor|page|pagina)(?:/|$)",
+        "^/(?:receitas|receita|videos)/?$"
+      ]
+    },
+    {
+      "name": "saborintenso",
+      "seed": "https://www.saborintenso.com/chef/novidades/receitas/",
+      "hosts": [
+        "saborintenso.com",
+        "www.saborintenso.com"
+      ],
+      "prefixes": [
+        "/chef/novidades/receitas",
+        "/f"
+      ],
+      "article_patterns": [
+        "^/f\\d+/[^/]+-\\d+/?$"
+      ],
+      "exclude_patterns": [
+        "/(?:privacidade|privacy|termos-de-uso|termos|contato|contactos|sobre-nos|politica-de-privacidade|login|cadastro)(?:/|$)",
+        "/(?:wp-admin|wp-json|wp-content|wp-includes|feed|comments|comentarios|search|busca|pesquisa|login|register|registro|perfil|membros)(?:/|$)",
+        "/(?:amp|print|imprimir)/?$",
+        "\\.(?:php|xml|txt)$",
+        "^/f\\d+/[^/]+-\\d+-\\d+/?$",
+        "^/(?:members|member|album|attachment|anexos|ebooks|ebook|revista-ebook)(?:/|$)"
+      ],
+      "listing_patterns": [
+        "^/$",
+        "/(?:category|categoria|categorias|tag|author|autor|page|pagina)(?:/|$)",
+        "^/(?:receitas|receita|videos)/?$",
+        "^/f\\d+/?$",
+        "^/chef/"
+      ]
+    },
+    {
+      "name": "receitasdeminuto",
+      "seed": "https://receitasdeminuto.com/categoria/receitas/",
+      "hosts": [
+        "receitasdeminuto.com",
+        "www.receitasdeminuto.com"
+      ],
+      "prefixes": [
+        "/"
+      ],
+      "article_patterns": [
+        "^/[^/]+/?$"
+      ],
+      "exclude_patterns": [
+        "/(?:privacidade|privacy|termos-de-uso|termos|contato|contactos|sobre-nos|politica-de-privacidade|login|cadastro)(?:/|$)",
+        "/(?:wp-admin|wp-json|wp-content|wp-includes|feed|comments|comentarios|search|busca|pesquisa|login|register|registro|perfil|membros)(?:/|$)",
+        "/(?:amp|print|imprimir)/?$",
+        "\\.(?:php|xml|txt)$",
+        "^/(?:sobre|seja-bem-vindo|anuncie|midia-kit|loja|newsletter)(?:/|$)"
+      ],
+      "listing_patterns": [
+        "^/$",
+        "/(?:category|categoria|categorias|tag|author|autor|page|pagina)(?:/|$)",
+        "^/(?:receitas|receita|videos)/?$"
+      ]
+    }
+  ]
+}

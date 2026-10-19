@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Tamanho do lote na construção SPIMI (índice por campos, posicional)}
+\label{tab:bloco}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{lrrrrrr}
+\hline
+\textbf{\shortstack{Postings\\por lote}} & \textbf{Lotes} & \textbf{\shortstack{RAM extra\\(MiB)}} & \textbf{\shortstack{Montagem em\\memória (s)}} & \textbf{\shortstack{Escrita dos\\lotes (s)}} & \textbf{\shortstack{Intercalação\\(s)}} & \textbf{\shortstack{Total\\(s)}} \\
+\hline
+100 mil & 96 & 33,2 & 22,1 & 1,31 & 2,88 & 100,4 \\
+500 mil & 20 & 31,4 & 21,0 & 0,62 & 1,03 & 95,3 \\
+2 M & 5 & 41,3 & 21,4 & 0,39 & 0,53 & 96,1 \\
+5 M & 2 & 56,4 & 20,3 & 0,29 & 0,37 & 92,1 \\
+sem limite & 1 & 90,7 & 20,4 & 0,00 & 0,28 & 92,8 \\
+\hline
+\end{tabular}%
+}
+\end{table}

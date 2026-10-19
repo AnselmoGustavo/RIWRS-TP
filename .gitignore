@@ -1,0 +1,9 @@
+# Corpus unificado (526 MB, acima do limite de 100 MB do GitHub).
+# É reproduzido por unificar.py a partir dos ZIPs das coletas; o SHA-256 está em manifesto.json.
+corpus.jsonl
+
+# Saídas geradas pela parte 2 (corpus limpo e índices): reproduzíveis com os comandos de parte2/LEIA_ME.md.
+parte2/saida/
+
+__pycache__/
+*.pyc

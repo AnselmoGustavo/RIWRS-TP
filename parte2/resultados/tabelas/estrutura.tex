@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Espaço ocupado pelo índice: posições, compressão VByte e escopo}
+\label{tab:estrutura}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{lrrrrrrrr}
+\hline
+\textbf{Configuração} & \textbf{Documentos} & \textbf{Vocabulário} & \textbf{\shortstack{Postings\\VByte (MiB)}} & \textbf{\shortstack{Postings\\int32 (MiB)}} & \textbf{Compressão} & \textbf{\shortstack{Léxico\\(MiB)}} & \textbf{\shortstack{Unidades\\(MiB)}} & \textbf{\shortstack{Total\\(MiB)}} \\
+\hline
+Documento, posicional & 74.209 & 40.985 & 36,1 & 111,3 & 3,08$\times$ & 0,9 & 1,2 & 38,3 \\
+Documento, sem posições & 74.209 & 40.985 & 14,7 & 56,8 & 3,87$\times$ & 0,9 & 1,2 & 16,8 \\
+Campos, posicional & 74.209 & 81.432 & 36,0 & 127,2 & 3,54$\times$ & 2,0 & 1,9 & 39,9 \\
+Campos, sem posições & 74.209 & 81.432 & 19,2 & 72,7 & 3,78$\times$ & 1,9 & 1,9 & 23,1 \\
+Campos, só receitas & 66.872 & 69.893 & 29,0 & 105,5 & 3,64$\times$ & 1,7 & 1,7 & 32,4 \\
+\hline
+\end{tabular}%
+}
+\end{table}

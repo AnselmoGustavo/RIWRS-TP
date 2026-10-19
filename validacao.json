@@ -1,0 +1,20 @@
+{
+  "valid_json_records": 83933,
+  "unique_urls": 83933,
+  "sequential_doc_ids": true,
+  "empty_text_records": 0,
+  "duplicate_url_records_removed": 2672,
+  "corpus_sha256_verified": true,
+  "documents_by_site": {
+    "anamariabrogui": 9,
+    "estadao_paladar": 2675,
+    "panelinha": 10210,
+    "petitchef": 29074,
+    "receitas_globo": 15906,
+    "receitasdeminuto": 1502,
+    "teleculinaria": 10913,
+    "terra_degusta": 21,
+    "tudogostoso": 2561,
+    "tudoreceitas": 11062
+  }
+}

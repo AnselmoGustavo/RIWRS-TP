@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Conflação de palavras por stemmer (palavras com frequência $\geq 5$, stopwords NLTK)}
+\label{tab:stemming}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{lrrrrr}
+\hline
+\textbf{Stemmer} & \textbf{Palavras} & \textbf{Radicais} & \textbf{Redução} & \textbf{Palavras/radical} & \textbf{Maior grupo} \\
+\hline
+nenhum & 31.913 & 31.913 & 0,0\% & 1,00 & 1 \\
+plural & 31.913 & 26.928 & 15,6\% & 1,19 & 3 \\
+RSLP & 31.913 & 15.286 & 52,1\% & 2,09 & 35 \\
+Snowball & 31.913 & 17.281 & 45,8\% & 1,85 & 29 \\
+\hline
+\end{tabular}%
+}
+\end{table}

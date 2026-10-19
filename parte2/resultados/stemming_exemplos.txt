@@ -1,0 +1,42 @@
+## plural
+cebola -> cebola: cebola, cebolas
+batata -> batata: batata, batatas
+assado -> assado: assado, assados
+massa -> massa: massa, massas
+pão -> pão: pão, pães
+mexer -> mexer: mexer
+forno -> forno: forno, fornos
+leite -> leite: leite, leites
+maior grupo 'colher' (3): colher, colheres, colhers
+maior grupo 'sabor' (3): sabor, sabores, sabors
+maior grupo 'papel' (3): papel, papéis, papeis
+maior grupo 'mel' (3): mel, méis, meis
+maior grupo 'mão' (3): mãos, mão, mães
+## rslp
+cebola -> cebol: cebola, cebolas, cebolinha, cebolinho, cebolada, cebolinhas, cebolinhos, cebol, cebolo, cebolos
+batata -> batat: batata, batatas, batatinhas, batatinha, batatada, batateiro
+assado -> ass: assado, assar, assada, asse, assados, assadas, assando, assa, assam, assem, assá, assou
+massa -> mass: massa, massas, massada, massinha, massinhas, masseira, masse, massagem, massimo, massar
+pão -> pão: pão, pães, pãozinho, pãozinhos
+mexer -> mex: mexa, mexendo, mexer, mexidos, mexe, mexido, mexi, mexida, mexemos, mex, mexo, mexam
+forno -> forn: forno, fornos, fornada, forneria, forninho, forna, fornadas, forn
+leite -> leit: leite, leitão, leites, leitora, leitura, leiteira, leitor, leitores, leit, leiteiro, leito, leitinho
+maior grupo 'lev' (35): leve, leva, levar, levemente, leves, leveza, levam, levei, levando, levante, levou, levá, levado, levinha, levada
+maior grupo 'cont' (31): conta, conte, contar, conter, contou, contam, contendo, contando, contem, contamos, contas, contados, conto, conterem, contagem
+maior grupo 'frit' (29): frito, fritar, frite, frita, fritas, fritos, fritura, fritando, fritadeira, fritada, frituras, fritá, fritou, fritam, fritei
+maior grupo 'deix' (28): deixe, deixar, deixa, deixando, deixei, deixam, deixá, deixo, deixará, deixou, deixamos, deixem, deixado, deixarão, deixada
+maior grupo 'pass' (27): passo, passe, passas, passar, passa, passado, passos, passando, passador, passou, passada, passados, passarinho, passadas, passam
+## snowball
+cebola -> cebol: cebola, cebolas, cebolada, cebol, cebolo, cebolos
+batata -> batat: batata, batatas, batatada
+assado -> assad: assado, assada, assados, assadas
+massa -> mass: massa, massas, massada, masse, mass, massar
+pão -> pã: pão, pães
+mexer -> mex: mexa, mexendo, mexer, mexidos, mexe, mexido, mexi, mexida, mexemos, mex, mexo, mexam
+forno -> forn: forno, fornos, fornada, forneria, forna, fornadas, forn, forneáveis
+leite -> leit: leite, leites, leit, leito, leita
+maior grupo 'deix' (29): deixe, deixar, deixa, deixando, deixei, deixam, deixá, deixo, deixará, deixou, deixamos, deixem, deixado, deixarão, deixada
+maior grupo 'lev' (28): leve, leva, levar, leves, levam, levei, levando, levou, levá, levado, levada, levamos, levo, levará, levados
+maior grupo 'cont' (28): conta, conte, contar, conter, contou, contam, contendo, contando, contem, contamos, contas, contados, conto, conterem, contido
+maior grupo 'cozinh' (26): cozinhar, cozinha, cozinhe, cozinhando, cozinhas, cozinhei, cozinhado, cozinhá, cozinhados, cozinhem, cozinhada, cozinham, cozinhadas, cozinharem, cozinhou
+maior grupo 'apresent' (26): apresentamos, apresentação, apresentadora, apresenta, apresentar, apresentador, apresento, apresentam, apresentado, apresentada, apresentando, apresentou, apresentaremos, apresentações, apresentadores

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-18T21:05:49.396038+00:00",
+  "input_records": 86605,
+  "retained_records": 83933,
+  "removed_duplicate_url_records": 2672,
+  "deduplication_key": "url original após strip(); comparação exata, sensível a caminho e query",
+  "selection_rule": "fetched_at mais recente; desempate por campos preenchidos, tamanho do texto e primeira ocorrência",
+  "content_deduplication_applied": false,
+  "recipe_reclassification_applied": false,
+  "sources": [
+    {
+      "file": "crawler_receitas(1).zip",
+      "sha256": "4e4d2ed546828f20536c15e902871a044a4909480b2a96cadd2ea59c19afbaa7",
+      "records_read": 45107
+    },
+    {
+      "file": "saida_coleta(3).zip",
+      "sha256": "d7286cf4b75bf793c59ae635cf8695b1d3d45ac81cb5778a82968965d7b162a8",
+      "records_read": 41498
+    }
+  ],
+  "member_counts": [
+    {
+      "zip": "crawler_receitas(1).zip",
+      "member": "crawler_receitas/saida_coleta/collected/estadao_paladar.jsonl",
+      "records": 2675
+    },
+    {
+      "zip": "crawler_receitas(1).zip",
+      "member": "crawler_receitas/saida_coleta/collected/panelinha.jsonl",
+      "records": 11063
+    },
+    {
+      "zip": "crawler_receitas(1).zip",
+      "member": "crawler_receitas/saida_coleta/collected/receitas_globo.jsonl",
+      "records": 16398
+    },
+    {
+      "zip": "crawler_receitas(1).zip",
+      "member": "crawler_receitas/saida_coleta/collected/terra_degusta.jsonl",
+      "records": 63
+    },
+    {
+      "zip": "crawler_receitas(1).zip",
+      "member": "crawler_receitas/saida_coleta/collected/tudogostoso.jsonl",
+      "records": 2833
+    },
+    {
+      "zip": "crawler_receitas(1).zip",
+      "member": "crawler_receitas/saida_coleta/collected/tudoreceitas.jsonl",
+      "records": 12075
+    },
+    {
+      "zip": "saida_coleta(3).zip",
+      "member": "saida_coleta/20261018_123553_633463/collected/anamariabrogui.jsonl",
+      "records": 9
+    },
+    {
+      "zip": "saida_coleta(3).zip",
+      "member": "saida_coleta/20261018_123553_633463/collected/petitchef.jsonl",
+      "records": 29074
+    },
+    {
+      "zip": "saida_coleta(3).zip",
+      "member": "saida_coleta/20261018_123553_633463/collected/receitasdeminuto.jsonl",
+      "records": 1502
+    },
+    {
+      "zip": "saida_coleta(3).zip",
+      "member": "saida_coleta/20261018_123553_633463/collected/teleculinaria.jsonl",
+      "records": 10913
+    }
+  ],
+  "corpus": {
+    "file": "corpus.jsonl",
+    "size_bytes": 550910265,
+    "sha256": "0bd9965dc64438a115e31f215ffb98b031841be546b528977cbdfeb086f5a8c5"
+  },
+  "counts_are_from_jsonl": true
+}

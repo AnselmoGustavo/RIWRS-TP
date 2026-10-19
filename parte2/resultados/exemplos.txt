@@ -1,0 +1,16 @@
+Documento 2781: Caldinho de feijão-preto com pimentão (https://panelinha.com.br/receita/caldinho-feijao-preto-pimentao)
+entrada: 2 xícaras (chá) de feijão-preto cozido (com o caldo) 1½ xícara (chá) de caldo de legumes caseiro (ou água) ½ pimentão vermelho ½ cebola 1 dente de alho 1 colher (sopa) de
+tokens: 2 xícaras chá de feijão preto cozido com o caldo 1 1/2 xícara chá de caldo de legumes caseiro ou água 1/2 pimentão vermelho 1/2 cebola 1 dente de alho 1 colher sopa de
+sem_numeros_e_letras_isoladas: xícaras chá de feijão preto cozido com caldo xícara chá de caldo de legumes caseiro ou água pimentão vermelho cebola dente de alho colher sopa de
+sem_stopwords: xícaras chá feijão preto cozido caldo xícara chá caldo legumes caseiro água pimentão vermelho cebola dente alho colher sopa
+stemming_rslp: xíc chá feij pret coz cald xíc chá cald legum cas águ piment vermelh cebol dent alh colh sop
+sem_acentos: xic cha feij pret coz cald xic cha cald legum cas agu piment vermelh cebol dent alh colh sop
+conferencia_analisador: xic cha feij pret coz cald xic cha cald legum cas agu piment vermelh cebol dent alh colh sop
+
+cebola       i:cebol      df índice= 22662 contagem direta= 22662  [{'unidade': 1, 'doc_id': 2, 'tf': 2, 'posicoes': [14, 30], 'titulo': 'Como fazer pernil'}, {'unidade': 4, 'doc_id': 5, 'tf': 1, 'posicoes': [30], 'titulo': 'Terrine'}]
+natas        i:nat        df índice=  4868 contagem direta=  4868  [{'unidade': 296, 'doc_id': 297, 'tf': 3, 'posicoes': [104, 142, 178], 'titulo': 'Receita de torta de mousses'}, {'unidade': 642, 'doc_id': 643, 'tf': 1, 'posicoes': [127], 'titulo': 'Escondidinho de bacalhau'}]
+chávena      i:chaven     df índice=  1665 contagem direta=  1665  [{'unidade': 32789, 'doc_id': 32790, 'tf': 1, 'posicoes': [47], 'titulo': 'Pão de uvas passas e cerveja preta'}, {'unidade': 32803, 'doc_id': 32804, 'tf': 2, 'posicoes': [4, 18], 'titulo': 'Creme aveludado de ervilha'}]
+xícara       i:xic        df índice= 19096 contagem direta= 19096  [{'unidade': 0, 'doc_id': 1, 'tf': 2, 'posicoes': [1, 29], 'titulo': 'Pesto genovês'}, {'unidade': 6, 'doc_id': 7, 'tf': 2, 'posicoes': [14, 24], 'titulo': 'Como fazer sardela'}]
+feijoada     t:feijo      df índice=   240 contagem direta=   240  [{'unidade': 600, 'doc_id': 601, 'tf': 1, 'posicoes': [4], 'titulo': 'Receita de vinagrete para feijoada'}, {'unidade': 2452, 'doc_id': 2453, 'tf': 1, 'posicoes': [2], 'titulo': 'Bolinho de feijoada do chef Carlos Ribeiro celebra a escrevivência de Conceição Evaristo'}]
+airfryer     p:airfry     df índice=   275 contagem direta=   275  [{'unidade': 260, 'doc_id': 261, 'tf': 1, 'posicoes': [14], 'titulo': 'Como fazer cupim na AirFryer'}, {'unidade': 351, 'doc_id': 352, 'tf': 1, 'posicoes': [39], 'titulo': 'Pernil na Air Fryer'}]
+ornitorrinco i:ornitorrinc df índice=     0 contagem direta=     0  []

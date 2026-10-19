@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\caption{Efeito das transformações léxicas (granularidade documento, índice posicional)}
+\label{tab:preprocessamento}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%
+\begin{tabular}{llrrrrrr}
+\hline
+\textbf{Stopwords} & \textbf{Stemmer} & \textbf{Vocabulário} & \textbf{\shortstack{Ocorrências\\(milhões)}} & \textbf{\shortstack{Postings\\(milhões)}} & \textbf{\shortstack{Índice\\(MiB)}} & \textbf{\shortstack{Tempo\\total (s)}} & \textbf{\shortstack{Análise\\léxica (s)}} \\
+\hline
+sem stopwords & nenhum & 78.221 & 22,92 & 10,72 & 57,8 & 95,0 & 67,1 \\
+sem stopwords & plural & 68.119 & 22,92 & 10,38 & 56,4 & 80,5 & 58,4 \\
+sem stopwords & RSLP & 41.001 & 22,92 & 9,63 & 53,4 & 85,8 & 63,5 \\
+sem stopwords & Snowball & 45.442 & 22,92 & 9,84 & 54,1 & 87,6 & 64,3 \\
+stopwords NLTK & nenhum & 78.098 & 15,85 & 8,99 & 45,6 & 87,0 & 64,4 \\
+stopwords NLTK & plural & 68.032 & 15,85 & 8,66 & 44,3 & 86,0 & 64,2 \\
+stopwords NLTK & RSLP & 40.986 & 15,85 & 8,08 & 41,8 & 78,4 & 60,6 \\
+stopwords NLTK & Snowball & 45.410 & 15,85 & 8,21 & 42,3 & 82,4 & 63,2 \\
+NLTK + domínio & nenhum & 78.075 & 14,28 & 8,23 & 41,8 & 79,4 & 60,2 \\
+NLTK + domínio & plural & 68.023 & 14,28 & 7,94 & 40,7 & 80,5 & 61,4 \\
+NLTK + domínio & RSLP & 40.985 & 14,28 & 7,45 & 38,3 & 82,2 & 64,0 \\
+NLTK + domínio & Snowball & 45.409 & 14,28 & 7,58 & 38,9 & 82,6 & 64,0 \\
+NLTK + domínio & RSLP, mantendo acentos & 43.667 & 14,28 & 7,48 & 38,5 & 78,4 & 61,2 \\
+NLTK + domínio & RSLP, indexando números & 49.906 & 15,76 & 8,23 & 42,3 & 81,3 & 62,2 \\
+\hline
+\end{tabular}%
+}
+\end{table}

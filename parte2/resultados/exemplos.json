@@ -1,0 +1,391 @@
+{
+  "transformacoes": {
+    "doc_id": 2781,
+    "url": "https://panelinha.com.br/receita/caldinho-feijao-preto-pimentao",
+    "titulo": "Caldinho de feijão-preto com pimentão",
+    "entrada": "2 xícaras (chá) de feijão-preto cozido (com o caldo) 1½ xícara (chá) de caldo de legumes caseiro (ou água) ½ pimentão vermelho ½ cebola 1 dente de alho 1 colher (sopa) de",
+    "tokens": [
+      "2",
+      "xícaras",
+      "chá",
+      "de",
+      "feijão",
+      "preto",
+      "cozido",
+      "com",
+      "o",
+      "caldo",
+      "1",
+      "1/2",
+      "xícara",
+      "chá",
+      "de",
+      "caldo",
+      "de",
+      "legumes",
+      "caseiro",
+      "ou",
+      "água",
+      "1/2",
+      "pimentão",
+      "vermelho",
+      "1/2",
+      "cebola",
+      "1",
+      "dente",
+      "de",
+      "alho",
+      "1",
+      "colher",
+      "sopa",
+      "de"
+    ],
+    "sem_numeros_e_letras_isoladas": [
+      "xícaras",
+      "chá",
+      "de",
+      "feijão",
+      "preto",
+      "cozido",
+      "com",
+      "caldo",
+      "xícara",
+      "chá",
+      "de",
+      "caldo",
+      "de",
+      "legumes",
+      "caseiro",
+      "ou",
+      "água",
+      "pimentão",
+      "vermelho",
+      "cebola",
+      "dente",
+      "de",
+      "alho",
+      "colher",
+      "sopa",
+      "de"
+    ],
+    "sem_stopwords": [
+      "xícaras",
+      "chá",
+      "feijão",
+      "preto",
+      "cozido",
+      "caldo",
+      "xícara",
+      "chá",
+      "caldo",
+      "legumes",
+      "caseiro",
+      "água",
+      "pimentão",
+      "vermelho",
+      "cebola",
+      "dente",
+      "alho",
+      "colher",
+      "sopa"
+    ],
+    "stemming_rslp": [
+      "xíc",
+      "chá",
+      "feij",
+      "pret",
+      "coz",
+      "cald",
+      "xíc",
+      "chá",
+      "cald",
+      "legum",
+      "cas",
+      "águ",
+      "piment",
+      "vermelh",
+      "cebol",
+      "dent",
+      "alh",
+      "colh",
+      "sop"
+    ],
+    "sem_acentos": [
+      "xic",
+      "cha",
+      "feij",
+      "pret",
+      "coz",
+      "cald",
+      "xic",
+      "cha",
+      "cald",
+      "legum",
+      "cas",
+      "agu",
+      "piment",
+      "vermelh",
+      "cebol",
+      "dent",
+      "alh",
+      "colh",
+      "sop"
+    ],
+    "conferencia_analisador": [
+      "xic",
+      "cha",
+      "feij",
+      "pret",
+      "coz",
+      "cald",
+      "xic",
+      "cha",
+      "cald",
+      "legum",
+      "cas",
+      "agu",
+      "piment",
+      "vermelh",
+      "cebol",
+      "dent",
+      "alh",
+      "colh",
+      "sop"
+    ]
+  },
+  "conferencia_termos": [
+    {
+      "campo": "ingredientes",
+      "palavra": "cebola",
+      "termo_indice": "i:cebol",
+      "df_indice": 22662,
+      "df_contagem_direta": 22662,
+      "primeiros_postings": [
+        {
+          "unidade": 1,
+          "doc_id": 2,
+          "tf": 2,
+          "posicoes": [
+            14,
+            30
+          ],
+          "titulo": "Como fazer pernil"
+        },
+        {
+          "unidade": 4,
+          "doc_id": 5,
+          "tf": 1,
+          "posicoes": [
+            30
+          ],
+          "titulo": "Terrine"
+        },
+        {
+          "unidade": 6,
+          "doc_id": 7,
+          "tf": 1,
+          "posicoes": [
+            3
+          ],
+          "titulo": "Como fazer sardela"
+        }
+      ]
+    },
+    {
+      "campo": "ingredientes",
+      "palavra": "natas",
+      "termo_indice": "i:nat",
+      "df_indice": 4868,
+      "df_contagem_direta": 4868,
+      "primeiros_postings": [
+        {
+          "unidade": 296,
+          "doc_id": 297,
+          "tf": 3,
+          "posicoes": [
+            104,
+            142,
+            178
+          ],
+          "titulo": "Receita de torta de mousses"
+        },
+        {
+          "unidade": 642,
+          "doc_id": 643,
+          "tf": 1,
+          "posicoes": [
+            127
+          ],
+          "titulo": "Escondidinho de bacalhau"
+        },
+        {
+          "unidade": 708,
+          "doc_id": 709,
+          "tf": 1,
+          "posicoes": [
+            20
+          ],
+          "titulo": "Tarta de queso do La Viña"
+        }
+      ]
+    },
+    {
+      "campo": "ingredientes",
+      "palavra": "chávena",
+      "termo_indice": "i:chaven",
+      "df_indice": 1665,
+      "df_contagem_direta": 1665,
+      "primeiros_postings": [
+        {
+          "unidade": 32789,
+          "doc_id": 32790,
+          "tf": 1,
+          "posicoes": [
+            47
+          ],
+          "titulo": "Pão de uvas passas e cerveja preta"
+        },
+        {
+          "unidade": 32803,
+          "doc_id": 32804,
+          "tf": 2,
+          "posicoes": [
+            4,
+            18
+          ],
+          "titulo": "Creme aveludado de ervilha"
+        },
+        {
+          "unidade": 32868,
+          "doc_id": 32869,
+          "tf": 1,
+          "posicoes": [
+            25
+          ],
+          "titulo": "Perna de peru no forno"
+        }
+      ]
+    },
+    {
+      "campo": "ingredientes",
+      "palavra": "xícara",
+      "termo_indice": "i:xic",
+      "df_indice": 19096,
+      "df_contagem_direta": 19096,
+      "primeiros_postings": [
+        {
+          "unidade": 0,
+          "doc_id": 1,
+          "tf": 2,
+          "posicoes": [
+            1,
+            29
+          ],
+          "titulo": "Pesto genovês"
+        },
+        {
+          "unidade": 6,
+          "doc_id": 7,
+          "tf": 2,
+          "posicoes": [
+            14,
+            24
+          ],
+          "titulo": "Como fazer sardela"
+        },
+        {
+          "unidade": 13,
+          "doc_id": 14,
+          "tf": 4,
+          "posicoes": [
+            23,
+            28,
+            74,
+            80
+          ],
+          "titulo": "Pat Fish"
+        }
+      ]
+    },
+    {
+      "campo": "titulo",
+      "palavra": "feijoada",
+      "termo_indice": "t:feijo",
+      "df_indice": 240,
+      "df_contagem_direta": 240,
+      "primeiros_postings": [
+        {
+          "unidade": 600,
+          "doc_id": 601,
+          "tf": 1,
+          "posicoes": [
+            4
+          ],
+          "titulo": "Receita de vinagrete para feijoada"
+        },
+        {
+          "unidade": 2452,
+          "doc_id": 2453,
+          "tf": 1,
+          "posicoes": [
+            2
+          ],
+          "titulo": "Bolinho de feijoada do chef Carlos Ribeiro celebra a escrevivência de Conceição Evaristo"
+        },
+        {
+          "unidade": 2513,
+          "doc_id": 2514,
+          "tf": 1,
+          "posicoes": [
+            2
+          ],
+          "titulo": "Acompanhamentos para feijoada: como fazer vinagrete, farofa, arroz, torresmo e sobremesa"
+        }
+      ]
+    },
+    {
+      "campo": "preparo",
+      "palavra": "airfryer",
+      "termo_indice": "p:airfry",
+      "df_indice": 275,
+      "df_contagem_direta": 275,
+      "primeiros_postings": [
+        {
+          "unidade": 260,
+          "doc_id": 261,
+          "tf": 1,
+          "posicoes": [
+            14
+          ],
+          "titulo": "Como fazer cupim na AirFryer"
+        },
+        {
+          "unidade": 351,
+          "doc_id": 352,
+          "tf": 1,
+          "posicoes": [
+            39
+          ],
+          "titulo": "Pernil na Air Fryer"
+        },
+        {
+          "unidade": 442,
+          "doc_id": 443,
+          "tf": 1,
+          "posicoes": [
+            56
+          ],
+          "titulo": "Receita simples de dadinhos de tapioca na AirFryer. Aprenda aqui"
+        }
+      ]
+    },
+    {
+      "campo": "ingredientes",
+      "palavra": "ornitorrinco",
+      "termo_indice": "i:ornitorrinc",
+      "df_indice": 0,
+      "df_contagem_direta": 0,
+      "primeiros_postings": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+site,seed,urls_discovered,urls_requested,pages_accepted,pages_rejected,robots_blocked,timeouts,errors,duplicate_urls,sitemap_urls,http_2xx,http_3xx,http_4xx,http_5xx,mean_response_ms,median_response_ms,p95_response_ms,effective_delay_s,downloaded_mb,started_at,finished_at
+tudogostoso,https://www.tudogostoso.com.br/receitas,50439,20415,2414,0,0,0,0,47411,50000,2414,0,18001,0,83.95,71.35,140.95,0.25,1075.15,2026-09-28T00:59:57.411369+00:00,2026-09-28T02:29:58.280263+00:00
+receitas_globo,https://receitas.globo.com/,16053,16051,15906,4,2,4,1,3543044,7038,15910,0,136,0,337.13,167.45,1118.69,0.25,14873.78,2026-09-28T00:59:57.413553+00:00,2026-09-28T02:18:07.948434+00:00
+receitas_nestle,https://www.receitasnestle.com.br/,1,1,0,0,0,0,0,0,0,0,0,1,0,38.14,38.14,38.14,0.25,0.0,2026-09-28T00:59:57.414002+00:00,2026-09-28T00:59:59.589271+00:00
+terra_degusta,https://www.terra.com.br/vida-e-estilo/degusta/receitas/,41,41,21,20,0,0,0,1656,7,41,0,0,0,532.62,435.44,909.62,0.25,6.37,2026-09-28T00:59:57.414444+00:00,2026-09-28T01:00:13.487340+00:00
+estadao_paladar,https://www.estadao.com.br/paladar/,17730,5636,2675,2961,0,0,0,107246,14735,5636,0,0,0,1449.33,1433.5,1833.56,0.25,2762.53,2026-09-28T00:59:57.414830+00:00,2026-09-28T02:29:58.371705+00:00
+panelinha,https://panelinha.com.br/,25637,20423,10210,9379,0,0,0,873919,0,19589,0,834,0,128.03,46.24,543.38,0.25,877.07,2026-09-28T00:59:57.415188+00:00,2026-09-28T02:29:58.294125+00:00
+renata,https://renata.com.br/,1,1,0,0,0,0,0,0,0,0,0,1,0,22.54,22.54,22.54,0.25,0.02,2026-09-28T00:59:57.415442+00:00,2026-09-28T00:59:59.584167+00:00
+tudoreceitas,https://www.tudoreceitas.com/,20590,11374,11062,193,9216,0,1,734014,0,11255,0,118,0,408.56,380.36,607.28,0.25,614.18,2026-09-28T00:59:57.416053+00:00,2026-09-28T01:50:13.927255+00:00

@@ -1,0 +1,6 @@
+﻿configuracao,execucoes,tempo_mediana_s,tempo_min_s,tempo_max_s,ram_pico_mediana_mib,ram_acrescimo_mediana_mib,ram_acrescimo_min_mib,ram_acrescimo_max_mib,indice_mib,vocabulario,unidades,postings
+sem transformações (documento),3,84.9,84.8,97.7,88.6,36.7,36.6,37.0,57.8,78221,74209,10720303
+referência (documento),3,81.0,80.5,94.7,83.2,31.4,31.3,31.5,38.3,40985,74209,7448172
+campos (índice principal),3,90.1,85.1,97.3,93.0,41.1,41.0,41.2,39.9,81432,74209,9524013
+chunk 128,3,81.6,81.3,85.2,84.1,32.1,31.9,32.5,43.4,40985,146938,9000062
+"campos, bloco de 500 mil",3,86.5,85.1,90.3,83.0,30.9,30.7,31.2,39.9,81432,74209,9524013
