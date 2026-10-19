@@ -65,7 +65,8 @@ def tabela(nome, legenda, rotulo, cabecalho, linhas, alinhamento):
     TABELAS.mkdir(parents=True, exist_ok=True)
     corpo = '\n'.join(' & '.join(map(str, l)) + r' \\' for l in linhas)
     # Fonte reduzida e colunas mais próximas; o \resizebox só atua se ainda assim passar da largura da página.
-    tex = (f'\\begin{{table}}[htbp]\n\\centering\n\\caption{{{legenda}}}\n\\label{{{rotulo}}}\n\\footnotesize\n'
+    # [H] (pacote float) fixa a tabela onde é incluída, sem páginas só de tabelas espaçadas.
+    tex = (f'\\begin{{table}}[H]\n\\centering\n\\caption{{{legenda}}}\n\\label{{{rotulo}}}\n\\footnotesize\n'
            f'\\setlength{{\\tabcolsep}}{{4pt}}\n'
            f'\\resizebox{{\\ifdim\\width>\\textwidth\\textwidth\\else\\width\\fi}}{{!}}{{%\n'
            f'\\begin{{tabular}}{{{alinhamento}}}\n\\hline\n'
